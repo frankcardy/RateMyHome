@@ -10,7 +10,7 @@ urlpatterns = [
 
     re_path(r'^home$', views.home_list, name='home_list'),
 
-    re_path(r'^review/(P<home_id>[0-9]+)/$'), views.home_detail, name = 'home_detail')
+    re_path(r'^review/(P<home_id>[0-9]+)/$', views.home_detail, name = 'home_detail')
 
 
 
